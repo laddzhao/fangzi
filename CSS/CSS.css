@@ -1,0 +1,78 @@
+dl,ul,ol,menu,li {
+    list-style: none;        /* 去掉默认样式中的小黑点 */
+}
+
+a{
+    text-decoration:none;    /* 去掉a标签默认的下划线，以块元素显示  */
+}
+
+.clearFloat{
+    zoom:1;                  /*  清除浮动，针对IE浏览器 */
+}
+
+.clearFloat:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;                 /*  清除浮动，除IE以外的浏览器 */
+}
+
+a {
+    color: #000000;           /*  文字的颜色 */
+}
+
+a:hover{
+    color: #3cee6b/*  鼠标移动到上面的颜色 */
+}
+
+img{
+    border:none;
+    display:block;
+}
+
+ul{
+
+}
+
+/*以上全部为样式重置（浏览器默认样式的清除)*/
+
+nav  ul  li{
+    float: right;
+    margin-left: 30px;
+    letter-spacing: 4px;
+    font-size:20px;
+
+}
+
+.logo{
+    float: left;
+    margin-left: 1px;
+}
+
+.first_left{
+    width: 45%;
+}
+
+.first_left img{
+    width: 100%;
+}
+
+.first>div{
+    float: left;
+}
+
+.first_text{
+    position: relative;
+    top: 140px;
+    left: 180px;
+    width: 55%;
+}
+
+.first_text h1{
+    font-size: 40px;
+}
+
+.height{
+    height: 200px;
+}
